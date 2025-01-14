@@ -53,6 +53,15 @@
         .gallery img:hover {
             transform: scale(1.1);
         }
+        .music-player {
+            margin: 20px auto;
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
         footer {
             background-color: #f39c12;
             color: white;
@@ -62,16 +71,9 @@
             width: 100%;
             bottom: 0;
         }
-        
     </style>
 </head>
 <body>
-    <!-- Player de Música -->
-<audio controls>
-    <source src="jorge.mp3" type="audio/mpeg">
-    Seu navegador não suporta o elemento de áudio.
-</audio>
-    
     <header>
         Meu Amor, Minha Esposa
     </header>
@@ -82,18 +84,22 @@
         <p class="quote">"Amar você é minha razão, minha missão e o meu maior prazer."</p>
     </section>
 
+    <section class="music-player">
+        <h3>Ouça Nossa Música</h3>
+        <audio controls>
+            <source src="jorge.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </section>
+
     <section class="gallery">
-        <img src="qviagem.jpeg"Foto do casal 1">
+        <img src="qviagem.jpeg" alt="Foto do casal 1">
         <img src="sabianao.jpeg" alt="Foto do casal 2">
         <img src="picpay.png" alt="Foto do casal 3">
-        <!-- Substitua pelos links das suas fotos -->
     </section>
 
     <footer>
-        Feito com ❤️ por seu Eterno namorado Diego
+        Feito com ❤️ por seu eterno namorado Diego
     </footer>
-
-    
 </body>
-    
 </html>
